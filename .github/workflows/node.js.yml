@@ -19,6 +19,7 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build nodejs
       run: |
-       docker build ./api -t intjborj/acebookapi:1.0.0
+       docker build ./api -t intjborj/acebookapi:4
+       
     
        
