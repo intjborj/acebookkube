@@ -19,6 +19,9 @@ jobs:
     - name: docker build nodejs
       run: |
        docker build ./api -t intjborj/acebookapi:4
+    - name: docker push
+      run: |
+        docker push intjborj/acebookapi:4
        
     
        
