@@ -4,11 +4,11 @@
 
 name: Docker Series Builds
 
-on: 
-  push:
-    branches: [ main ]
-    paths:
-      - 'api/**' 
+on: [ push ]
+#   push:
+#     branches: [ main ]
+#     paths:
+#       - 'api/**' 
 jobs:
   build:
     runs-on: ubuntu-latest 
