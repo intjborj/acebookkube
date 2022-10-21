@@ -4,7 +4,13 @@
 
 name: Docker Series Builds
 
-on: [push]
+on: 
+  push:
+    branches: [ main ]
+    paths:
+      - 'api/**'
+
+  
 
 jobs:
   build:
